@@ -1,0 +1,59 @@
+body {
+  background-image: url(Table.png);
+height: 100vh;
+background-size: cover;
+}
+
+header{
+position: fixed;
+top: 0;
+  height: 7%;
+width: 100%;
+  text-align: center;
+  color: gold;
+
+}
+
+footer{
+background-color: black;
+color: gold;
+position:fixed;
+bottom:0;
+width:100%;
+  text-align: center;
+  padding: none;
+  height: 9%;
+}
+
+footer section{
+  padding: none;
+  margin: none;
+}
+
+/* 1. Main Table Setup */
+#Table {
+position: fixed;
+  top: 7%;
+  width: 100%;               /* Spreads the table across the full width */
+  margin: 20px 0;
+}
+
+/* 2. The Rows */
+#Table tr {
+  border-bottom: 1px solid #e6e2dd; /* Soft, warm horizontal borders */
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect for when data fills the rows */
+#Table tr:hover {
+  background-color: #f4f0eb;        /* Warm minimalist tint */
+}
+
+/* 3. The Cells */
+#Table td {
+  padding: 16px 20px;               /* Generous minimalist padding */
+  min-height: 50px;                 /* Ensures empty cells still have visual height */
+  text-align: left;                 
+  font-family: sans-serif;          
+  color: #2c2a29;                   
+}
