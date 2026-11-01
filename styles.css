@@ -11,7 +11,14 @@ top: 0;
 width: 100%;
   text-align: center;
   color: gold;
+}
 
+header section{
+font:;
+color: Grey;
+background-color: silver;
+font-size:;
+border:;
 }
 
 footer{
@@ -32,10 +39,9 @@ footer section{
 
 /* 1. Main Table Setup */
 #Table {
-position: fixed;
-  top: 7%;
+position: relative;
+top: 10%;
   width: 100%;               /* Spreads the table across the full width */
-  margin: 20px 0;
 }
 
 /* 2. The Rows */
@@ -55,5 +61,7 @@ position: fixed;
   min-height: 50px;                 /* Ensures empty cells still have visual height */
   text-align: left;                 
   font-family: sans-serif;          
-  color: #2c2a29;                   
+  color: #2c2a29;
+border-left: 1px solid silver;      
+border-right: 1px solid silver;               
 }
